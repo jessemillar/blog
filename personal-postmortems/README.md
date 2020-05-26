@@ -14,6 +14,8 @@ This post isn't for the faint of heart. Doing this takes some serious effort, re
 
 I've had great success in using personal postmortem documents when trying to learn from a failure (big or small). I found a simple postmortem template that I liked and spun up a public repo (public inside my company) to host all my docs. At the end of projects/sprints/individual feature development, I write a postmortem and share it out with the team. Sharing helps me be accountable, foster a culture that accepts failure at varying levels, and inspires other people to also self-examine and learn as much as possible from their individual experiences.
 
+I find it difficult when writing a postmortem to highlight positives. Remember as you write that a postmortem doc is just as much about celebrating successes and lessons learned as it is about identifying shortcomings and potential growth areas.
+
 ## Overview
 
 Looking back on completed projects/tasks is an important thing to do if you want to improve. This repo exists to track semi-raw (meaning that enough detail is present to prevent posting to a public GitHub repo) postmortems for projects I've worked on at Microsoft.
