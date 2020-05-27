@@ -1,6 +1,6 @@
 # Personal Postmortems
 
-[![Work In Progress Tombstone GIF](header.gif)](https://giphy.com/stickers/wip-work-in-progress-eani13-hS9x8qV9bCrBBHx2rq)
+[![Skull GIF](skull.gif)](https://giphy.com/stickers/yeti-yk-ykanimation-S5KpKuf56TAw25wmPq)
 
 People are lazy. Let's just get that out of the way. *Because* people are lazy, if we want to improve, we need some structure and accountability. Postmortem documentation is a great way to help a team learn and be accountable. To expand the team benefits of postmortems, I've modified software postmortem processes to be more personal and focused on individual growth.
 
@@ -18,7 +18,7 @@ Like dissecting cadavers, personal postmortems aren't for the faint of heart. Wr
 
 It's important to note that personal postmortems don't need to be limited to when things go wrong or when a major project is finished/cancelled. The whole point is to reflect on your experience to maximize your learning and then share that newfound knowledge with your team. A postmortem discussing a conference you attended or a feature you added is just as useful as one discussing the time you set your production server on fire because you pressed "deploy" while half asleep. Just keep it within reason. You probably don't need to write a postmortem every time you do a one-line bug fix.
 
-To nobly help the world, I took the general template I use when writing my personal postmortems, filled it with explanatory comments, and pasted it below ([and in a separate file](template-demo.md). It's simple and can be expanded if needed, but remember and apply the guiding principle of [Bullet Journaling](https://bulletjournal.com/): Keep things simple enough that you don't feel overwhelmed or demotivated. The point is to get things on the page.
+To nobly help the world, I took the template I use when writing my personal postmortems, filled it with explanatory comments, and pasted it below ([and in a separate file](template-demo.md)). It's simple and can be expanded if needed, but remember and apply the guiding principle of [Bullet Journaling](https://bulletjournal.com/): Keep things simple enough that you don't feel overwhelmed or demotivated. The point is to get things on the page.
 
 Since most postmortems you write will contain proprietary corporate info, I recommend setting up a version controlled repository inside your company's source code management just for your postmortems. That way, your files are all in one sharable place and you can track changes. Maybe your coworkers will even make a PR against your docs to add a positive outcome you'd forgotten to mention!
 
@@ -29,11 +29,16 @@ Without further ado, let's dig in!
 
 ## Summary
 
-Write a brief, one-paragraph summary of what happened/what you worked on. Put enough detail that someone can skim and quickly understand what's going on but don't bog things down with technical details or griping. Try to be objective. When referencing yourself, either speak in the third person or make it very clear who wrote the document. "I" or "me" might not make sense to someone else later on.
+Write a brief, one-paragraph summary of what happened/what you worked on. Put enough detail that someone can
+skim and quickly understand what's going on but don't bog things down with technical details or griping.
+Try to be objective. When referencing yourself, either speak in the third person or make it very clear who
+wrote the document. "I" or "me" might not make sense to someone else later on.
 
 ## What Didn't Go Well
 
-Give an overview of what didn't go well. Use a list for better readability. If things really didn't go well, it's natural to have negative emotions, but don't use this section to rant. Look at data and facts. Don't be afraid to mention people by name, but try not to throw people under the bus. Examples below.
+Give an overview of what didn't go well. Use a list for better readability. If things really didn't go well,
+it's natural to have negative emotions, but don't use this section to rant. Look at data and facts. Don't be
+afraid to mention people by name, but try not to throw people under the bus. Examples below.
 
 - I overpromised and didn't deliver the feature on time
 - I got in an argument with a teammate which ended up being silly because we were actually on the same page
@@ -41,7 +46,11 @@ Give an overview of what didn't go well. Use a list for better readability. If t
 
 ## What Went Well
 
-For this section, format similarly to the "What Didn't Go Well" section, but instead talk about the things that *did* go well. Don't try to use this section to override or hedge the "What Didn't Go Well" section. Be objective, factual, and aware of your latent emotions. Remember as you write that a postmortem doc is just as much about celebrating successes and lessons learned as it is about identifying shortcomings and potential growth areas. Loose examples follow. Be specific in your actual postmortem.
+For this section, format similarly to the "What Didn't Go Well" section, but instead talk about the things
+that *did* go well. Don't try to use this section to override or hedge the "What Didn't Go Well" section. Be
+objective, factual, and aware of your latent emotions. Remember as you write that a postmortem doc is just as
+much about celebrating successes and lessons learned as it is about identifying shortcomings and potential
+growth areas. Loose examples follow. Be specific in your actual postmortem.
 
 - I learned a lot about a new technology
 - We have a more defined PR process in place
@@ -49,7 +58,9 @@ For this section, format similarly to the "What Didn't Go Well" section, but ins
 
 ## Results
 
-Make a list of lessons you learned and what you're going to do differently in the future. Also list (and link to if possible) any files, documents, etc. that came about as a result of whatever your postmortem is discussing. Bullets are your friend here.
+Make a list of lessons you learned and what you're going to do differently in the future. Also list (and link
+to if possible) any files, documents, etc. that came about as a result of whatever your postmortem is
+discussing. Bullets are your friend here.
 
 - I should be more realistic in the future when deciding how much work I can take on in a set amount of time. It would have been better if I'd only promised to deliver parts X and Y before the end of the month instead of also including Z.
 - Our documentation could use some improvement and it doesn't take much effort. I was able to create [a new onboarding page]() with links to six other pages to help our interns get up to speed.
@@ -78,16 +89,18 @@ Fill this section with a list of timestamps showing what happened in what order.
 - [4/23/2020] I created the final PR
 ```
 
-And there you have it! Give a personal postmortem a shot or two and see how it goes over. I'd bet you'll feel more empowered and able to tackle challenges. Once you're comfortable with the general idea of the sections, here's [a minimal template](template.md) for quickly filling out postmortems.
+And there you have it! Give a personal postmortem a shot or two and see how it goes over. I'd bet you'll feel more empowered and able to tackle challenges once you've written a few. When you're comfortable with the general idea of the template sections, here's [a minimal template](template.md) for quickly filling out postmortems.
 
 Now, go have fun examining some cadavers!
 
-[![Skull GIF](skull.gif)](https://giphy.com/stickers/yeti-yk-ykanimation-S5KpKuf56TAw25wmPq)
+[![Work In Progress Tombstone GIF](header.gif)](https://giphy.com/stickers/wip-work-in-progress-eani13-hS9x8qV9bCrBBHx2rq)
 
-For extra credit, if you use [Neovim](https://github.com/neovim/neovim) or similar, you can save [the simplified template I included above](template.md) as a file and then put something like this snippet in your `.vimrc` file to automatically load the template anytime you create a new file prefixed with `postmortem-`:
+Hey! You're still reading! For extra credit, if you use [Neovim](https://github.com/neovim/neovim) or similar, you can save [the simplified template I included above](template.md) as a file and then put something like this snippet in your `.vimrc` file to automatically load the template anytime you create a new file prefixed with `postmortem-`:
 
 ```
 au BufNewFile postmortem-*.md 0r ~/.templates/postmortem.md
 ```
 
 Be sure to specify the correct save location for the template file. I have a segment of [my dotfiles](https://github.com/jessemillar/dotfiles) that automatically puts a few useful templates in `~/.templates`.
+
+Enjoy!
