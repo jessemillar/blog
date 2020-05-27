@@ -8,34 +8,24 @@ Before we dive into what a personal postmortem is, let's lay some groundwork. So
 
 > The term "post-mortem" derives from the Latin for post, meaning "after" and mortem meaning "death". The principal aims of an autopsy is to determine the cause of death, mode of death, manner of death, the state of health of the person before he or she died, and whether any medical diagnosis and treatment before death was appropriate.
 
-In software land, we treat our code as a person and pretend that person died whenever there was an issue. What happened that caused last week's software outage? Could we have done anything to prevent it? Did we have proper monitoring in place to know that something was broken or dead before our customers discovered the rotting skeleton in our closet?
+In software land, we treat our code as a person and pretend that person died whenever there's a customer-impacting issue. What happened that caused last week's software outage? Could we have done anything to prevent it? Were we alerted that something was broken or dead before our customers discovered the rotting skeleton in our closet? After answering these questions, ideally, a team will document their findings in a formal document template (usually chosen by the company in question) and lay out a plan for fixing the underlying issue to keep it from happening again. That's a postmortem!
 
-[Postmortem discussions](https://en.wikipedia.org/wiki/Postmortem_documentation) usually happen at the end of a project. The team usually sits down together, goes over what was successful and unsuccessful about the project.
+Reactive postmortems like I've just described is the lowest rung on the ladder of postmortems. It's a solid step above sweeping problems under the rug, but we can do better. The next postmortem evolution is what [the Scrum world calls a "retrospective."](https://www.scrum.org/resources/what-is-a-sprint-retrospective). Retrospectives usually happen at the end of a project and aren't a reaction to something going wrong. The team gets together, brings their notes/code, and goes over what was successful and unsuccessful about the project now that it's completed or cancelled. Generally, a similar structure is followed to reactive postmortems where some sort of formal document or chart is filled out and a plan is concocted for how to do better next time.
 
-Project post-mortems are intended to inform process improvements which mitigate future risks and to promote iterative best practices. Post-mortems are often considered a key component of, and ongoing precursor to, effective risk management.[2]
+Awesome! Let's take it one step further. The final evolution of postmortems doesn't involve an entire team. Instead, there's only one writer: you. You sit down and follow a document format reflecting on what *you* did, how *you* felt, and what *you* learned. It sounds a bit scarier when there's no "team" title to hide behind, right? "There's no growth in the comfort zone!"
 
-TODO Talk about why we benefit from modifying the structure to be more personal
+Like dissecting cadavers, personal postmortems aren't for the faint of heart. Writing and sharing a personal postmortem doc takes some serious effort, reflection, and humility. Sure, you can write a postmortem doc and keep it to yourself in some folder on your desktop. That's still a solid step above not doing any self reflection. But, to get the full benefit of personal postmortems, you need to share the final doc with your team. Modeling vulnerability by openly sharing your challenges in addition to your triumphs leads to more rapid personal progress and a healthier team culture. If everyone on your team feels comfortable with experimentation and learning from potential failure, there'll be more collaboration, better discussion, and healthier code. Boom! High score!
 
-Like dissecting cadavers, personal postmortems aren't for the faint of heart. Writing and sharing a personal postmortem doc takes some serious effort, reflection, and humility. Sure, you can write a postmortem doc and keep it to yourself in some folder on your desktop. That's still a solid step above not doing any self reflection. But, to get the full benefit of personal postmortems, you need to share the final doc with your team.
+It's important to note that personal postmortems don't need to be limited to when things go wrong or when a major project is finished/cancelled. The whole point is to reflect on your experience to maximize your learning and then share that newfound knowledge with your team. A postmortem discussing a conference you attended or a feature you added is just as useful as one discussing the time you set your production server on fire because you pressed "deploy" while half asleep. Just keep it within reason. You probably don't need to write a postmortem every time you do a one-line bug fix.
 
-I've had great success in using personal postmortem documents when trying to learn from a failure (big or small). I found a simple postmortem template that I liked and spun up a public repo (public inside my company) to host all my docs. At the end of projects/sprints/individual feature development, I write a postmortem and share it out with the team. Sharing helps me be accountable, foster a culture that accepts failure at varying levels, and inspires other people to also self-examine and learn as much as possible from their individual experiences.
+To nobly help the world, I took the general template I use when writing my personal postmortems, filled it with explanatory comments, and pasted it below ([and in a separate file](template-demo.md). It's simple and can be expanded if needed, but remember and apply the guiding principle of [Bullet Journaling](https://bulletjournal.com/): Keep things simple enough that you don't feel overwhelmed or demotivated. The point is to get things on the page.
 
-I find it difficult when writing a postmortem to highlight positives. Remember as you write that a postmortem doc is just as much about celebrating successes and lessons learned as it is about identifying shortcomings and potential growth areas.
+Since most postmortems you write will contain proprietary corporate info, I recommend setting up a version controlled repository inside your company's source code management just for your postmortems. That way, your files are all in one sharable place and you can track changes. Maybe your coworkers will even make a PR against your docs to add a positive outcome you'd forgotten to mention!
 
-Looking back on completed projects/tasks is an important thing to do if you want to improve. This repo exists to track semi-raw (meaning that enough detail is present to prevent posting to a public GitHub repo) postmortems for projects I've worked on at Microsoft.
-
-It's important to note that postmortems do not need to be limited to when things go wrong. The whole point is to reflect on your experience to maximize your learning and then share that newfound knowledge with your team. A postmortem discussing a conference you attended or a feature you added is just as relevant as one discussing the time you brought down production.
-
-Modeling vulnerability by openly sharing your shortcomings and challenges leads to more rapid personal progress and a healthier team culture. If everyone on your team feels comfortable with experimentation and learning from potential failure, there will be more collaboration, better discussion, and healthier code.
-
-## Template
-
-This repo includes [a template file](template.md) that can be used for writing your own retrospectives. The template is simple and can be expanded if needed, but remember and apply the guiding principle of [Bullet Journaling](https://bulletjournal.com/): Keep things simple enough that you don't feel overwhelmed or demotivated. The point is to get things on the page.
-
-The general template filled with explanations is shown below ([and available as a separate file](template-demo.md):
+Without further ado, let's dig in!
 
 ```
-# (Put a Catchy Title Here)
+# (Put a Catchy Postmortem Title Here)
 
 ## Summary
 
@@ -51,7 +41,7 @@ Give an overview of what didn't go well. Use a list for better readability. If t
 
 ## What Went Well
 
-For this section, format similarly to the "What Didn't Go Well" section, but instead talk about the things that *did* go well. Don't try to use this section to override or hedge the "What Didn't Go Well" section. Be objective, factual, and aware of your latent emotions. Loose examples follow. Be specific in your actual postmortem.
+For this section, format similarly to the "What Didn't Go Well" section, but instead talk about the things that *did* go well. Don't try to use this section to override or hedge the "What Didn't Go Well" section. Be objective, factual, and aware of your latent emotions. Remember as you write that a postmortem doc is just as much about celebrating successes and lessons learned as it is about identifying shortcomings and potential growth areas. Loose examples follow. Be specific in your actual postmortem.
 
 - I learned a lot about a new technology
 - We have a more defined PR process in place
@@ -88,21 +78,16 @@ Fill this section with a list of timestamps showing what happened in what order.
 - [4/23/2020] I created the final PR
 ```
 
-Once you're comfortable with the general idea of the sections, here's [a minimal template](template.md) for quickly filling out postmortems.
+And there you have it! Give a personal postmortem a shot or two and see how it goes over. I'd bet you'll feel more empowered and able to tackle challenges. Once you're comfortable with the general idea of the sections, here's [a minimal template](template.md) for quickly filling out postmortems.
 
-## Fun Tip
+Now, go have fun examining some cadavers!
 
-If you use [Neovim](https://github.com/neovim/neovim) or similar, you can save [the simplified template I included above](template.md) as a file and then put something like this snippet in your `.vimrc` file to automatically load the template anytime you create a new file prefixed with `postmortem-`:
+[![Skull GIF](skull.gif)](https://giphy.com/stickers/yeti-yk-ykanimation-S5KpKuf56TAw25wmPq)
+
+For extra credit, if you use [Neovim](https://github.com/neovim/neovim) or similar, you can save [the simplified template I included above](template.md) as a file and then put something like this snippet in your `.vimrc` file to automatically load the template anytime you create a new file prefixed with `postmortem-`:
 
 ```
 au BufNewFile postmortem-*.md 0r ~/.templates/postmortem.md
 ```
 
 Be sure to specify the correct save location for the template file. I have a segment of [my dotfiles](https://github.com/jessemillar/dotfiles) that automatically puts a few useful templates in `~/.templates`.
-
-## Notes
-
-There is some debate over whether to call these "postmortems", "retrospectives", etc. I've kept this repo titled "Postmortems" for two reasons:
-1. Regardless of "correctness", "postmortems" is the term you see most in industry and quickly conveys the purpose
-1. I initially named the repo "Postmortems", discovered the point of debate, and am too lazy to rename the repo
-
