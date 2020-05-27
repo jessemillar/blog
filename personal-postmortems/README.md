@@ -81,7 +81,8 @@ Put a list of relevant links here for easy reference. Some generic examples are 
 
 ### Timeline
 
-Fill this section with a list of timestamps showing what happened in what order. In most cases, you likely won't need to be more granular than a day, but make sure you include the year for future readers.
+Fill this section with a list of timestamps showing what happened in what order. In most cases, you likely
+won't need to be more granular than a day, but make sure you include the year for future readers.
 
 - [4/15/2020] I was given the task and started researching
 - [4/16/2020] I pair programmed with someone
