@@ -90,7 +90,7 @@ won't need to be more granular than a day, but make sure you include the year fo
 - [4/23/2020] I created the final PR
 ```
 
-And there you have it! Give a personal postmortem a shot or two and see how it goes over. I'd bet you'll feel more empowered and able to tackle challenges once you've written a few. When you're comfortable with the general idea of the template sections, here's [a minimal template](template.md) for quickly filling out postmortems.
+And there you have it! Give a personal postmortem a shot or two and see how it goes over. I'd bet you'll feel more empowered and able to tackle challenges once you've written a few. When you're comfortable with the general idea of the template sections, here's [a minimal template](https://raw.githubusercontent.com/jessemillar/blog/postmortems/personal-postmortems/template.md) for quickly filling out postmortems.
 
 Now, go have fun examining some cadavers!
 
