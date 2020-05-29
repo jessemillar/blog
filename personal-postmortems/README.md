@@ -40,9 +40,9 @@ Give an overview of what didn't go well. Use a list for better readability. If t
 it's natural to have negative emotions, but don't use this section to rant. Look at data and facts. Don't be
 afraid to mention people by name, but try not to throw people under the bus. Examples below.
 
-- I overpromised and didn't deliver the feature on time
-- I got in an argument with a teammate which ended up being silly because we were actually on the same page
-- I'm not entirely proud of the code I ended up writing (lost of "here be dragons" comments)
+- Jesse overpromised and didn't deliver the feature on time
+- Jesse got in an argument with a teammate which ended up being silly because we were actually on the same page
+- Jese isn't entirely proud of the code he ended up writing (lots of "here be dragons" comments)
 
 ## What Went Well
 
@@ -52,9 +52,9 @@ objective, factual, and aware of your latent emotions. Remember as you write tha
 much about celebrating successes and lessons learned as it is about identifying shortcomings and potential
 growth areas. Loose examples follow. Be specific in your actual postmortem.
 
-- I learned a lot about a new technology
+- Jesse learned a lot about a new technology
 - We have a more defined PR process in place
-- I added a lot of explanatory comments to our code
+- Jesse added a lot of explanatory comments to our code
 
 ## Results
 
@@ -62,8 +62,8 @@ Make a list of lessons you learned and what you're going to do differently in th
 to if possible) any files, documents, etc. that came about as a result of whatever your postmortem is
 discussing. Bullets are your friend here.
 
-- I should be more realistic in the future when deciding how much work I can take on in a set amount of time. It would have been better if I'd only promised to deliver parts X and Y before the end of the month instead of also including Z.
-- Our documentation could use some improvement and it doesn't take much effort. I was able to create [a new onboarding page]() with links to six other pages to help our interns get up to speed.
+- Jesse should be more realistic in the future when deciding how much work he can take on in a set amount of time. It would have been better if I'd only promised to deliver parts X and Y before the end of the month instead of also including Z.
+- Our documentation could use some improvement and it doesn't take much effort. Jesse was able to create [a new onboarding page]() with links to six other pages to help our interns get up to speed.
 - [A not-yet-closed PR]() that still needs a couple reviews.
 - [A new web page]() explaining the feature to our customers.
 
@@ -84,10 +84,10 @@ Put a list of relevant links here for easy reference. Some generic examples are 
 Fill this section with a list of timestamps showing what happened in what order. In most cases, you likely
 won't need to be more granular than a day, but make sure you include the year for future readers.
 
-- [4/15/2020] I was given the task and started researching
-- [4/16/2020] I pair programmed with someone
-- [4/21/2020] I fought with a technology
-- [4/23/2020] I created the final PR
+- [4/15/2020] Jesse was given the task and started researching
+- [4/16/2020] Jesse pair programmed with someone
+- [4/21/2020] Jesse fought with a technology
+- [4/23/2020] Jesse created the final PR
 ```
 
 And there you have it! Give a personal postmortem a shot or two and see how it goes over. I'd bet you'll feel more empowered and able to tackle challenges once you've written a few. When you're comfortable with the general idea of the template sections, here's [a minimal template](https://raw.githubusercontent.com/jessemillar/blog/master/personal-postmortems/template.md) for quickly filling out postmortems.
