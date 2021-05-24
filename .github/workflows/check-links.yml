@@ -1,0 +1,13 @@
+name: build status
+
+on: [push]
+
+jobs:
+
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Markup Link Checker (mlc)
+        uses: becheran/mlc@v0.14.3
+        with:
+          args: --ignore-links "*mh.jessemillar.com*" "*bulletjournal.com*"
