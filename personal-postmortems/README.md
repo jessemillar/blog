@@ -105,3 +105,5 @@ au BufNewFile postmortem-*.md 0r ~/.templates/postmortem.md
 Be sure to specify the correct save location for the template file. I have a segment of [my dotfiles](https://github.com/jessemillar/dotfiles) that automatically puts a few useful templates in `~/.templates`.
 
 Enjoy!
+
+![Tracking Pixel](https://jessemillar.goatcounter.com/count?p=/blog/personal-postmortems)
